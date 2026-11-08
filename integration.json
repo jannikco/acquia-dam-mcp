@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "status": "ready",
+  "verification": "mock-only",
+  "releaseEligible": true,
+  "maintainer": "jannikco",
+  "license": "MIT",
+  "sourceRevision": "f0aa5ac54332a8dc601dfb3a33e3c928460aebccc787be86434bcae460e8bda9",
+  "evidence": [
+    "Source-backed provider setup metadata",
+    "Offline configuration and MCP protocol tests"
+  ],
+  "provenance": [
+    "https://api.widencollective.com/openapi/openapi.json"
+  ],
+  "id": "acquia-dam-mcp",
+  "kind": "mcp-setup",
+  "product": "pipmcp",
+  "title": "Acquia DAM MCP setup and connection checker",
+  "description": "Generate Acquia DAM MCP client configuration, inspect available tools and validate hosted endpoint access through PipMCP.",
+  "operationIds": [],
+  "appSlug": "acquia-dam",
+  "appName": "Acquia DAM",
+  "providerDocs": "https://api.widencollective.com/openapi/openapi.json",
+  "providerWebsite": "https://www.acquia.com/products/acquia-dam",
+  "authentication": {
+    "type": "bearer",
+    "requiredCredentialFields": [
+      "token"
+    ],
+    "requiredHeaderNames": [],
+    "helpUrl": "https://docs.acquia.com/acquia-dam/api-v2",
+    "tenantRequired": false,
+    "accountParameterNames": []
+  },
+  "attributionSlug": "github-acquia-dam-mcp"
+}
