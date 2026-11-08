@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "version": "1.0.0",
+  "product": "pipmcp",
+  "credential": "PIPMCP_API_KEY",
+  "skills": [
+    {
+      "name": "pipmcp-acquia-dam",
+      "description": "Connect AI agents to Acquia DAM using one PipMCP API key and actual hosted tool discovery."
+    }
+  ],
+  "files": {
+    "skills/pipmcp-acquia-dam/SKILL.md": "45098d1bfdec2cb728b42e9dbf61496c444f86c7fcdc236db87dda55becfe5c4"
+  }
+}
